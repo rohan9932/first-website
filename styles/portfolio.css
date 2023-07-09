@@ -117,9 +117,24 @@ nav a {
     margin-bottom: 30px;
 }
 
+/* main section styles */
+main {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
 .about {
     padding: 131px 157px;
     border-radius: 10px;
     background: rgba(253, 110, 10, 0.15);
     margin: 130px 230px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }
